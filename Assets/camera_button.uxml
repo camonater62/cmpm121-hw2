@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="Frame" style="height: 184px; width: 219px;">
+        <ui:Button text="Change Camera" display-tooltip-when-elided="true" name="Button" style="height: 96px; width: 212px; background-color: rgb(217, 217, 217); border-left-color: rgb(0, 107, 188); border-right-color: rgb(0, 107, 188); border-top-color: rgb(0, 107, 188); border-bottom-color: rgb(0, 107, 188); border-left-width: 10px; border-right-width: 10px; border-top-width: 10px; border-bottom-width: 10px; border-top-left-radius: 20px; border-bottom-left-radius: 20px; border-top-right-radius: 20px; border-bottom-right-radius: 20px; color: rgb(0, 107, 188); font-size: 20px; -unity-font-style: bold; -unity-font: url(&apos;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&amp;guid=464c4f572ee5101ed9bfe14f825afeb9&amp;type=3#NotInter-Regular&apos;);" />
+    </ui:VisualElement>
+</ui:UXML>
