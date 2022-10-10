@@ -31,11 +31,7 @@ public class changeCameraButton : MonoBehaviour
     int click = 0;
     private void ChangeCamera(){
         EnableCamera(click);
-        click++;
-        // reset counter so it is not out of bounds (only have 4 cameras)
-        if(click > 3){
-            click = 0;
-        }
+        click = (click + 1) % Cameras.Count;
     }
 
     private void EnableCamera(int n)
