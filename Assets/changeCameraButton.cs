@@ -30,8 +30,8 @@ public class changeCameraButton : MonoBehaviour
     // initialize click count
     int click = 0;
     private void ChangeCamera(){
-        EnableCamera(click);
         click = (click + 1) % Cameras.Count;
+        EnableCamera(click);
     }
 
     private void EnableCamera(int n)
