@@ -25,8 +25,6 @@ public class switchCamera : MonoBehaviour
             EnableCamera(1);
         } else if (Input.GetKeyDown(KeyCode.Alpha3)) {
             EnableCamera(2);
-        } else if (Input.GetKeyDown(KeyCode.Alpha4)) {
-            EnableCamera(3);
         }
     }
 
